@@ -4,7 +4,7 @@ img{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:non
 .w{max-width:1200px;margin:0 auto;padding:0 28px}
 header{position:sticky;top:0;z-index:20;background:rgba(7,7,13,.7);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}
 nav{display:flex;align-items:center;gap:28px;height:70px}
-.logo{font-weight:800;font-size:20px;display:flex;gap:10px;align-items:center}.logo i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#7c5cff,#22d3ee)}
+.logo{font-weight:700;font-size:21px;letter-spacing:-.04em;display:flex;gap:10px;align-items:center}.logo svg{width:30px;height:30px}
 nav .links{display:flex;gap:26px;margin-left:auto}nav .links a{color:#a1a1b5;font-size:14px}nav .links a:hover,nav .links a[aria-current="page"]{color:#fff}
 .pill{border:1px solid #2e2e48;background:#12121c;padding:9px 16px;border-radius:99px;font-size:14px;white-space:nowrap}
 .hero{position:relative;text-align:center;padding:90px 0 0;overflow:hidden}
