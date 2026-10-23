@@ -78,5 +78,28 @@ footer a{margin-left:18px}footer a:hover{color:#fff}
 .gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:44px;text-align:left}
 .gallery figure{margin:0}.gallery figcaption{margin-top:12px;color:#8f8fa6;font-size:15px}.gallery b{color:#fff}
 @media(max-width:860px){.hooks,.gallery{grid-template-columns:minmax(0,1fr)}.mail{flex-direction:column}}
+.ticks{position:relative;display:flex;gap:10px 22px;justify-content:center;flex-wrap:wrap;margin-top:22px;color:#c4c4d6;font-size:14px}
+.ticks span:before{content:"✓";color:#FF8A4C;font-weight:700;margin-right:7px}
+.tapnote{display:none;margin-top:8px;color:#8f8fa6;font-size:13px;text-align:center}
+.zoomv{cursor:zoom-in}
+.cta.left{justify-content:flex-start;margin-top:26px}
+.stack{display:grid;gap:16px}
+.split.rev{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}
+.plans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.plan{position:relative;border:1px solid #26263d;background:linear-gradient(180deg,#11111b,#0b0b13);border-radius:22px;padding:30px}
+.plan.pro{border-color:#FF5A1F;background:radial-gradient(420px 180px at 50% 0,rgba(255,90,31,.2),transparent 70%),#0f0f19}
+.plan h3{margin:0;font-size:26px;letter-spacing:-.02em}.plan .for{margin:4px 0 18px;color:#8f8fa6}
+.plan .price{font-size:30px;font-weight:700;letter-spacing:-.03em}.plan .note{margin:4px 0 0;color:#8f8fa6;font-size:14px}
+.plan .list li{font-size:15px}.plan b{color:#fff}
+.tag{position:absolute;top:18px;right:18px;background:#FF5A1F;color:#fff;border-radius:99px;padding:3px 12px;font-size:12px;font-weight:600}
+.center-text{text-align:center;margin:26px auto 0}
+.faq-wrap{max-width:860px}
+.faq{margin-top:28px;display:grid;gap:10px}
+.faq details{border:1px solid #1f1f30;background:#0f0f19;border-radius:14px;padding:16px 20px}
+.faq summary{cursor:pointer;font-weight:600;list-style:none}.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:#FF8A4C;font-weight:700}.faq details[open] summary:after{content:"−"}
+.faq p{margin:10px 0 0;color:#a1a1b5}
+@media(max-width:860px){.plans,.split.rev{grid-template-columns:minmax(0,1fr)}.split.rev>.shot{order:2}.plan{padding:24px}}
+@media(max-width:640px){.zoomv{aspect-ratio:1/1;height:auto;object-fit:cover;object-position:left top}.tapnote{display:block}}
 .r{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}.r.in{opacity:1;transform:none}
 @media(max-width:860px){nav{flex-wrap:wrap;height:auto;gap:10px;padding:12px 0}.pill{margin-left:auto}nav .links{order:3;width:100%;margin-left:0;gap:20px;overflow-x:auto;white-space:nowrap}.cards,.odoo,.split,.duo,.steps,.why,.contact,.form .two{grid-template-columns:minmax(0,1fr)}.split{gap:30px}.final{padding:44px 22px}.hero{padding-top:60px}}
